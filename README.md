@@ -1,0 +1,1 @@
+This is a simple project to check spring plugins for compatibility with OpenSearch.

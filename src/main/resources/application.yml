@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+logging:
+  level:
+    root: INFO
+
+springdoc:
+  packagesToScan=com.metica.resource
+
+opensearch:
+  uri:
+    scheme: http
+    host: localhost
+    port: 9200
+  username: admin
+  password: admin
+
+elasticsearch:
+  rest:
+    uris: http://localhost:9201
+    username: admin
+    password: admin
